@@ -1,7 +1,8 @@
 # spellcasts timers
 
 ## Maulgar
-**note there is a delay in between there. we need to find this delay, but it does correspond to whirlwind being cast
+**note there is a delay in between there. we need to find this delay, but it does correspond to whirlwind being cast**
+
 Combat start: 02:41:01.819
 ### Arcing Smash
 timestamps:

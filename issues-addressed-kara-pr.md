@@ -1,5 +1,7 @@
 # Issues addressed by Kara PR (UPCOMING :D ):
 
+Check the branch [here](https://github.com/elthehablo/azerothcore-wotlk/tree/kara-refactor)
+
 ## Opera:
 - [ ] https://github.com/azerothcore/azerothcore-wotlk/issues/16284
 ## Nightbane:

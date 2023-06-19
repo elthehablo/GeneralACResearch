@@ -4,7 +4,7 @@
 - [ ] https://github.com/azerothcore/azerothcore-wotlk/issues/16284
 ## Nightbane:
 - [x] https://github.com/azerothcore/azerothcore-wotlk/issues/16271
-- [ ] https://github.com/chromiecraft/chromiecraft/issues/5606
+- [x] https://github.com/chromiecraft/chromiecraft/issues/5606 progresses (still needs to look at path, and some go tweaking)
 - [x] https://github.com/chromiecraft/chromiecraft/issues/4869
 ## Servant's Quarter
 - [ ] https://github.com/chromiecraft/chromiecraft/issues/5604

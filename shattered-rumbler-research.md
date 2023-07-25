@@ -56,7 +56,7 @@ time between first cast and combat start: 11.485s
 time between 2 and 1:
 time between 3 and 2:
 
-### second
+### sixth
 15:17:13.865
 
 

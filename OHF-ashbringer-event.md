@@ -2,6 +2,22 @@
 
 ### Object UPDATE with Tirion and Abbendis - 21:57:46.166
 
+Random GOBs:
+
+- 22684 - Wooden Chair
+- 22685 - Wooden Chair
+- 36977 - Wooden Chair
+- 174994 - Wooden Chair
+- 174995 - Wooden Chair
+- 174996 - Wooden Chair
+- 174997 - Wooden Chair
+- 174998 - Wooden Chair
+- 112310 - Wooden Chair
+
+184305 - Mograine's chair
+[23] Stationary Position: X: 1818.3458 Y: 1031.2239 Z: 11.097511
+[23] Stationary Orientation: 3.124123
+
 Abbendis 20347 pos:
 [0] Position: X: 1814.5449 Y: 1032.6057 Z: 11.148274
 [0] Orientation: 6.248278617858886718
@@ -116,6 +132,10 @@ High back chair 22927
 [24] Stationary Orientation: 4.71239
 [24] GameObject Rotation: X: 0 Y: 0 Z: -0.7071066 W: 0.70710695
 
+Mograine's strongbox 184308
+[0] Stationary Position: X: 1816.6979 Y: 1031.316 Z: 11.847512
+[0] Stationary Orientation: 0.017452462
+
 ### other update - 21:57:45.056
 Mograine 20345
 [1] Position: X: 1818.3458 Y: 1031.2239 Z: 11.097511
@@ -124,6 +144,8 @@ Mograine 20345
 ### the actual event and timers
 
 **note: missing some orientation changes... need to fix**
+
+**todo: make sure dark crystal gets removed get waypoints to work**
 
 remember update was at 21:57:45.056
 
@@ -188,10 +210,14 @@ mograine talk - 22:00:03.610
 Mograine chat - 22:00:03.802
 'And there is this...' -say
 
+Mograine chest creation - 22:00:06.820
+
 mograine point - 22:00:10.044
 
 Mograine chat - 22:00:10.117
 '%s unlocks the chest.' -emote
+
+Mograine chest opened - 22:00:11.686
 
 make mograine summon 20391 at 22:00:11.686
 location:
@@ -257,7 +283,13 @@ Isillien cast spell 22:01:24.186
 Isillien chat to Mograine - 22:01:27.597 
 'Shock then silence overtakes the crowd.' -emote
 
-Mograine stand - 22:01:32.249
+Mograine move to - 22:01:29.014
+X: 1818.6646 Y: 1029.883 Z: 11.097511
+
+Mograine stand - 22:01:29.014
+
+Mograine face - 22:01:32.249
+2.49148869514465332
 
 Mograine chat - 22:01:34.048
 'It consumed the Light!' -say point
@@ -307,8 +339,77 @@ Tirion:
 22:02:07.682
 22:02:10.907
 
+184307 light crystal spawned - 22:02:09.301
+[0] Stationary Position: X: 1816.6808 Y: 1031.3865 Z: 12.78501
+[0] Stationary Orientation: 6.2308264
+
+22:02:09.712 - dark crystal killed
+
+
 Mograine chat - 22:02:14.354
 'BY THE LIGHT! Could it be? Could this be it?' -say exclaim
+
+Mograine chat - 22:02:19.172
+'I must know... I will know...'
+
+Mograine change facing - 22:02:22.210
+2.493079423904418945
+
+Mograine chat - 22:02:23.942
+'%s reaches out to touch the light crystal.' -emote point
+
+Mograine spell cast - 22:02:25.435
+35172 - self
+
+Mograine emote cry - 22:02:28.660
+
+Mograine chat - 22:02:36.917
+I... It... It is beautiful. What I felt when I touched it... The Light coursed through me and I through it... It healed my spirit.
+
+Isillien face - 22:02:43.154
+6.256497383117675781
+
+Isillien chat - 22:02:44.951
+'Your hand! It is healed!' -say exclaim
+
+Mograine chats - 22:02:48.029
+'%s puts the crystal back inside the chest.' -emote
+
+Mograine's Stronbox closed - 22:02:48.029
+
+Destroy light crystal - 22:02:49.603
+
+Mograine - move to [0] Points: X: 1819.0977 Y: 1030.0465 Z: 11.199711 - 22:02:51.210
+
+Mograine chat - 22:02:51.403
+'Let us never again speak of this day. Our enemies are many. They need not know we hold such artifacts.' -say
+
+Mograine seated - 22:02:52.822
+
+Destroy Mograine's Stronbox closed - 22:02:53.228
+
+Mograine - chat 22:02:59.412
+'I have seen it... From this blessed crystal we will forge a weapon. This weapon will hold inside it a piece of each of us... And when it is used against undead, it shall cast them down. And in its wake, it will leave only ashes...' -say
+
+Tirion chat - 22:03:10.660
+'The Ashbringer...' -say salute
+
+
+Isillien chat - 22:03:13.975
+'The Ashbringer...' -say salute
+
+Abbendis
+'The Ashbringer...' -say salute
+
+Fairbanks
+'The Ashbringer...' -say salute
+
+Arcanist Doan
+'The Ashbringer...' -say salute
+`
+restore orientation on all after 2 seconds
+
+
 
 
 

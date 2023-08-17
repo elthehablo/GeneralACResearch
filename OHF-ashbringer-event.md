@@ -123,7 +123,7 @@ Mograine 20345
 
 ### the actual event and timers
 
-**note: missing some orientation changes... need to fix
+**note: missing some orientation changes... need to fix**
 
 remember update was at 21:57:45.056
 

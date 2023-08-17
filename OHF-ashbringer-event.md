@@ -122,6 +122,8 @@ Mograine 20345
 [1] Orientation: 3.124123096466064453
 
 ### the actual event and timers
+
+**note: missing some orientation changes... need to fix
 remember update was at 21:57:45.056
 find time for AT?
 Mograine oneshot talk - 21:58:59.426
@@ -172,6 +174,149 @@ doan talk - 21:59:50.704
 
 Doan chat - 21:59:50.909
 'What do you propose, Mograine?' -say
+
+mograine question - 21:59:55.538
+
+Mograine chat - 21:59:55.755
+'Propose? I propose that we prepare. That we prepare our loved ones, family and friends for the possibility of an undead holocaust.' -say
+
+mograine talk - 22:00:03.610
+
+Mograine chat - 22:00:03.802
+'And there is this...' -say
+
+mograine point - 22:00:10.044
+
+Mograine chat - 22:00:10.117
+'%s unlocks the chest.' -emote
+
+make mograine summon 20391 at 22:00:11.686
+location:
+[0] Position: X: 1816.7838 Y: 1031.3131 Z: 12.569419
+[0] Orientation: 6.2657318115234375
+
+gameobject created 184306 at 22:00:11.686:
+[1] Stationary Position: X: 1816.7213 Y: 1031.3075 Z: 12.132234
+[1] Stationary Orientation: 3.8222728
+[1] GameObject Rotation: X: 0 Y: 0 Z: -0.94264126 W: 0.33380756
+
+Abbendis points - 22:00:16.089 (facing to new GOB?)
+
+Abbendis say to Mograine - 22:00:16.114
+'By the Light! What is it?' -say
+
+Mograine chat - 22:00:19.518
+'I have had this object in my possession for 10 years. Since Blackrock Spire...' -say
+
+Mograine chat - 22:00:24.734
+'I wrested it free from the remains of an orc lieutenant - a dark caster... It is from their homeworld.' -say
+
+Mograine chat - 22:00:31.186
+'Do not get too close. I laid a hand upon it once... Only once and never again. The memories of that day still linger.' -say
+
+Mograine chat - 22:00:34.396
+'%s removes the gauntlet from his right arm and shows everyone his mangled hand.' -emote
+
+Mograine chat - 22:00:39.242
+'I surmise that this object is the living embodiment of shadows... darkness... It is a manifestation. It is a void.' -say
+
+Isillien face 0.292982429265975952
+
+Isillien exclamation should be automatic - 22:00:47.103
+
+Isillien chat - 22:00:47.298
+'I do not see how this evil artifact is relevant to the undead. We must destroy it!' -say
+
+Mograine chat - 22:00:52.024
+'%s shakes his head.' -emote
+
+Mograine chat - 22:00:53.741
+'No, old friend, it is very relevant.' -say
+
+Mograine chat - 22:00:56.966
+'Let me ask you this, brothers and sisters: Can good exist without evil? Can there be light without dark?' -say
+
+Mograine chat - 22:01:03.403
+'And if that answer is no, then could it be possible that because this artifact exists, its polar opposite must also exist?' -say with point
+
+Mograine chat - 22:01:09.855
+'Could you imagine what the material manifestation of the Light could do against the undead?' -say
+
+Isillien chat to Mograine - 22:01:17.934
+'Nonsense, Mograine! It must be destroyed!' -say exclaim
+
+Isillien new facing - 22:01:20.967
+0.493160128593444824
+
+Isillien cast spell 22:01:24.186
+35155 on self
+
+Isillien chat to Mograine - 22:01:27.597 
+'Shock then silence overtakes the crowd.' -emote
+
+Mograine stand - 22:01:32.249
+
+Mograine chat - 22:01:34.048
+'It consumed the Light!' -say point
+
+Tirion chat - 22:01:40.486
+'Impossible!' - say exclamation
+
+Tirion cast spell 22:01:43.499
+35160 on self
+
+Fairbanks face - 22:01:46.742
+3.662546634674072265
+
+Fairbanks chat - 22:01:48.947
+'Is... Is it getting lighter? Its coloration... It is changing.' -say question
+
+Fairbanks cast spell 22:01:51.975
+35162 on self
+
+spellcasting of all 4 ensues
+
+Fairbanks:
+22:01:56.808
+22:01:58.424
+22:02:00.033
+22:02:01.639
+22:02:04.862
+
+Abbendis facing 5.759593963623046875 at 22:01:55.196 (35160):
+22:01:55.196
+22:01:57.610
+22:02:02.449
+22:02:07.280
+22:02:10.514
+
+Isillien:
+22:01:56.419
+22:01:58.024
+22:02:01.244
+22:02:02.847
+22:02:04.459
+
+Tirion:
+22:01:55.196
+22:01:58.024
+22:02:02.847
+22:02:07.682
+22:02:10.907
+
+Mograine chat - 22:02:14.354
+'BY THE LIGHT! Could it be? Could this be it?' -say exclaim
+
+
+
+
+
+
+
+
+
+
+
 
 
 

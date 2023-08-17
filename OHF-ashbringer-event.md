@@ -124,8 +124,11 @@ Mograine 20345
 ### the actual event and timers
 
 **note: missing some orientation changes... need to fix
+
 remember update was at 21:57:45.056
+
 find time for AT?
+
 Mograine oneshot talk - 21:58:59.426
 
 Mograine chat - 21:58:59.630

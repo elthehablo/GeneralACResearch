@@ -12,15 +12,15 @@ UPDATE `creature_template` SET `HealthModifier`=1.04125*2 WHERE `entry`=21857; -
 UPDATE `creature_template` SET `HealthModifier`=350*3.5   WHERE `entry`=21875; -- Shadow of Leotheras
 UPDATE `creature_template` SET `HealthModifier`=350*3.5   WHERE `entry`=21215; -- Leotheras the Blind
 -- fathomlord karathress
-UPDATE `creature_template` SET `HealthModifier`=105*3.5,  WHERE `entry`=21965; -- Tidalvess
+UPDATE `creature_template` SET `HealthModifier`=105*4     WHERE `entry`=21965; -- Tidalvess
 UPDATE `creature_template` SET `HealthModifier`=0.0049    WHERE `entry`=22486; -- Greater Earthbind Totem
 UPDATE `creature_template` SET `HealthModifier`=0.0245    WHERE `entry`=22487; -- Greater Poison Cleansing Totem
 UPDATE `creature_template` SET `HealthModifier`=0.7*2     WHERE `entry`=22091; -- Spitfire Totem
-UPDATE `creature_template` SET `HealthModifier`=105*3.5   WHERE `entry`=21966; -- Sharkkis
+UPDATE `creature_template` SET `HealthModifier`=105*4     WHERE `entry`=21966; -- Sharkkis
 UPDATE `creature_template` SET `HealthModifier`=17.5*3.5  WHERE `entry`=22119; -- Fathom Lurker
 UPDATE `creature_template` SET `HealthModifier`=17.5*3.5  WHERE `entry`=22120; -- Fathom Sporebat
-UPDATE `creature_template` SET `HealthModifier`=105*3.5   WHERE `entry`=21964; -- Caribdis
-UPDATE `creature_template` SET `HealthModifier`=210*3.5   WHERE `entry`=21214; -- Fathomlord Karathress
+UPDATE `creature_template` SET `HealthModifier`=105*4     WHERE `entry`=21964; -- Caribdis
+UPDATE `creature_template` SET `HealthModifier`=210*4     WHERE `entry`=21214; -- Fathomlord Karathress
 -- morogrim tidewalker
 UPDATE `creature_template` SET `HealthModifier`=9.8*2     WHERE `entry`=21913; -- Water Globule
 UPDATE `creature_template` SET `HealthModifier`=1.75*2.5  WHERE `entry`=21920; -- Tidewalker Lurker (morogrim murloc spawn)
@@ -57,4 +57,4 @@ UPDATE `creature_template` SET `HealthModifier`=17.5*4    WHERE `entry`=21225; -
 
 DELETE FROM `zone_difficulty_info` WHERE `MapID`=548;
 INSERT INTO `zone_difficulty_info` (`MapID`, `PhaseMask`, `HealingNerfValue`, `AbsorbNerfValue`, `MeleeDmgBuffValue`, `SpellDmgBuffValue`, `Enabled`, `Comment`) VALUES
-(548, 0, 0.75, 0.75, 1.25, 1.25, 1, 'Serpentshrine Cavern');
+(548, 0, 0.75, 0.75, 1.35, 1.35, 1, 'Serpentshrine Cavern');

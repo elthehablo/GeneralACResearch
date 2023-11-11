@@ -1,37 +1,37 @@
 -- hydross the unstable
 UPDATE `creature_template` SET `HealthModifier`=4.2*2.5 WHERE `entry`=22035; -- Pure Spawn of Hydross
 UPDATE `creature_template` SET `HealthModifier`=4.2*2.5 WHERE `entry`=22036; -- Tained Spawn of Hydross
-UPDATE `creature_template` SET `HealthModifier`=315*3.5 WHERE `entry`=21216; -- Hydross the Unstable
+UPDATE `creature_template` SET `HealthModifier`=315*3.5, `DamageModifier`=28*2 WHERE `entry`=21216; -- Hydross the Unstable
 -- the lurker below
 UPDATE `creature_template` SET `HealthModifier`=3.5*3.5 WHERE `entry`=21865; -- Coilfang Ambusher - Lurker submerge add
 UPDATE `creature_template` SET `HealthModifier`=7*3.5 WHERE `entry`=21873; -- Coilfang Guardian -- Lurker submerge add
-UPDATE `creature_template` SET `HealthModifier`=350*3.5 WHERE `entry`=21217; -- The Lurker Below
+UPDATE `creature_template` SET `HealthModifier`=350*3.5, `DamageModifier`=42*2 WHERE `entry`=21217; -- The Lurker Below
 -- leotheras the blind
 UPDATE `creature_template` SET `HealthModifier`=14*3.5 WHERE `entry`=21806; -- Greyheart Spellbinder (intro add Leotheras)
 UPDATE `creature_template` SET `HealthModifier`=1.04125*2 WHERE `entry`=21857; -- Inner Demon
 UPDATE `creature_template` SET `HealthModifier`=350*3.5 WHERE `entry`=21875; -- Shadow of Leotheras
-UPDATE `creature_template` SET `HealthModifier`=350*3.5 WHERE `entry`=21215; -- Leotheras the Blind
+UPDATE `creature_template` SET `HealthModifier`=350*3.5, `DamageModifier`=28*2 WHERE `entry`=21215; -- Leotheras the Blind
 -- fathomlord karathress
-UPDATE `creature_template` SET `HealthModifier`=105*3.5 WHERE `entry`=21965; -- Tidalvess
+UPDATE `creature_template` SET `HealthModifier`=105*3.5, `DamageModifier`=42*1.5 WHERE `entry`=21965; -- Tidalvess
 UPDATE `creature_template` SET `HealthModifier`=0.0049 WHERE `entry`=22486; -- Greater Earthbind Totem
 UPDATE `creature_template` SET `HealthModifier`=0.0245 WHERE `entry`=22487; -- Greater Poison Cleansing Totem
 UPDATE `creature_template` SET `HealthModifier`=0.7*2 WHERE `entry`=22091; -- Spitfire Totem
-UPDATE `creature_template` SET `HealthModifier`=105*3.5 WHERE `entry`=21966; -- Sharkkis
+UPDATE `creature_template` SET `HealthModifier`=105*3.5, `DamageModifier`=25*1.5 WHERE `entry`=21966; -- Sharkkis
 UPDATE `creature_template` SET `HealthModifier`=17.5*3.5 WHERE `entry`=22119; -- Fathom Lurker
 UPDATE `creature_template` SET `HealthModifier`=17.5*3.5 WHERE `entry`=22120; -- Fathom Sporebat
-UPDATE `creature_template` SET `HealthModifier`=105*3.5 WHERE `entry`=21964; -- Caribdis
-UPDATE `creature_template` SET `HealthModifier`=210*3.5 WHERE `entry`=21214; -- Fathomlord Karathress
+UPDATE `creature_template` SET `HealthModifier`=105*3.5, `DamageModifier`=25*1.5 WHERE `entry`=21964; -- Caribdis
+UPDATE `creature_template` SET `HealthModifier`=210*3.5, `DamageModifier`=36*2 WHERE `entry`=21214; -- Fathomlord Karathress
 -- morogrim tidewalker
 UPDATE `creature_template` SET `HealthModifier`=9.8*2 WHERE `entry`=21913; -- Water Globule
 UPDATE `creature_template` SET `HealthModifier`=1.75*2.5 WHERE `entry`=21920; -- Tidewalker Lurker (morogrim murloc spawn)
-UPDATE `creature_template` SET `HealthModifier`=525*3.5 WHERE `entry`=21213; -- Morogrim Tidewalker
+UPDATE `creature_template` SET `HealthModifier`=525*3.5, `DamageModifier`=56*2 WHERE `entry`=21213; -- Morogrim Tidewalker
 -- lady vashj
 UPDATE `creature_template` SET `HealthModifier`=0.7*3.5 WHERE `entry`=21958; -- Enchanted Elemental
 UPDATE `creature_template` SET `HealthModifier`=0.7*3.5 WHERE `entry`=22009; -- Tainted Elemental
 UPDATE `creature_template` SET `HealthModifier`=17.5*3.5 WHERE `entry`=22055; -- Coilfang Elite
 UPDATE `creature_template` SET `HealthModifier`=17.5*3.5 WHERE `entry`=22056; -- Coilfang Strider
 UPDATE `creature_template` SET `HealthModifier`=0.7*2 WHERE `entry`=22140; -- Toxic Sporebat
-UPDATE `creature_template` SET `HealthModifier`=560*3.5 WHERE `entry`=21212; -- Lady Vashj
+UPDATE `creature_template` SET `HealthModifier`=560*3.5, `DamageModifier`=45*2 WHERE `entry`=21212; -- Lady Vashj
 --trash
 UPDATE `creature_template` SET `HealthModifier`=52.5*4 WHERE `entry`=21251; -- Underbog Colossus
 UPDATE `creature_template` SET `HealthModifier`=17.5*4 WHERE `entry`=21339; -- Coilfang Hate-Screamer

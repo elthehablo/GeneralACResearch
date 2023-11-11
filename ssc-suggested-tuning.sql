@@ -32,7 +32,7 @@ UPDATE `creature_template` SET `HealthModifier`=17.5*3.5 WHERE `entry`=22055; --
 UPDATE `creature_template` SET `HealthModifier`=17.5*3.5 WHERE `entry`=22056; -- Coilfang Strider
 UPDATE `creature_template` SET `HealthModifier`=0.7*2 WHERE `entry`=22140; -- Toxic Sporebat
 UPDATE `creature_template` SET `HealthModifier`=560*3.5, `DamageModifier`=45*2 WHERE `entry`=21212; -- Lady Vashj
---trash
+-- trash
 UPDATE `creature_template` SET `HealthModifier`=52.5*4 WHERE `entry`=21251; -- Underbog Colossus
 UPDATE `creature_template` SET `HealthModifier`=17.5*4 WHERE `entry`=21339; -- Coilfang Hate-Screamer
 UPDATE `creature_template` SET `HealthModifier`=1.4*4 WHERE `entry`=21263; -- Greyheart Technician

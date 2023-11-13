@@ -1,11 +1,11 @@
 -- hydross the unstable
-UPDATE `creature_template` SET `HealthModifier`=4.2*3.5   WHERE `entry`=22035; -- Pure Spawn of Hydross
-UPDATE `creature_template` SET `HealthModifier`=4.2*3.5   WHERE `entry`=22036; -- Tained Spawn of Hydross
-UPDATE `creature_template` SET `HealthModifier`=315*4.5   WHERE `entry`=21216; -- Hydross the Unstable
+UPDATE `creature_template` SET `HealthModifier`=4.2*3.5     WHERE `entry`=22035; -- Pure Spawn of Hydross
+UPDATE `creature_template` SET `HealthModifier`=4.2*3.5     WHERE `entry`=22036; -- Tained Spawn of Hydross
+UPDATE `creature_template` SET `HealthModifier`=315*4.5     WHERE `entry`=21216; -- Hydross the Unstable
 -- the lurker below
-UPDATE `creature_template` SET `HealthModifier`=3.5*4   WHERE `entry`=21865; -- Coilfang Ambusher - Lurker submerge add
-UPDATE `creature_template` SET `HealthModifier`=7*4     WHERE `entry`=21873; -- Coilfang Guardian -- Lurker submerge add
-UPDATE `creature_template` SET `HealthModifier`=350*4.5   WHERE `entry`=21217; -- The Lurker Below
+UPDATE `creature_template` SET `HealthModifier`=3.5*4       WHERE `entry`=21865; -- Coilfang Ambusher - Lurker submerge add
+UPDATE `creature_template` SET `HealthModifier`=7*4         WHERE `entry`=21873; -- Coilfang Guardian -- Lurker submerge add
+UPDATE `creature_template` SET `HealthModifier`=350*4.5     WHERE `entry`=21217; -- The Lurker Below
 -- leotheras the blind
 UPDATE `creature_template` SET `HealthModifier`=14*4        WHERE `entry`=21806; -- Greyheart Spellbinder (intro add Leotheras)
 UPDATE `creature_template` SET `HealthModifier`=1.04125*2   WHERE `entry`=21857; -- Inner Demon

@@ -8,14 +8,14 @@ UPDATE `creature_template` SET `HealthModifier`=7*4         WHERE `entry`=21873;
 UPDATE `creature_template` SET `HealthModifier`=350*3.5     WHERE `entry`=21217; -- The Lurker Below
 -- leotheras the blind
 UPDATE `creature_template` SET `HealthModifier`=14*4        WHERE `entry`=21806; -- Greyheart Spellbinder (intro add Leotheras)
-UPDATE `creature_template` SET `HealthModifier`=1.04125*2   WHERE `entry`=21857; -- Inner Demon
+UPDATE `creature_template` SET `HealthModifier`=1.04125*1.3 WHERE `entry`=21857; -- Inner Demon
 UPDATE `creature_template` SET `HealthModifier`=350*3.5     WHERE `entry`=21875; -- Shadow of Leotheras
 UPDATE `creature_template` SET `HealthModifier`=350*3.5     WHERE `entry`=21215; -- Leotheras the Blind
 -- fathomlord karathress
 UPDATE `creature_template` SET `HealthModifier`=105*3.5     WHERE `entry`=21965; -- Tidalvess
 UPDATE `creature_template` SET `HealthModifier`=0.0049      WHERE `entry`=22486; -- Greater Earthbind Totem
 UPDATE `creature_template` SET `HealthModifier`=0.0245      WHERE `entry`=22487; -- Greater Poison Cleansing Totem
-UPDATE `creature_template` SET `HealthModifier`=0.7*9       WHERE `entry`=22091; -- Spitfire Totem
+UPDATE `creature_template` SET `HealthModifier`=0.7         WHERE `entry`=22091; -- Spitfire Totem
 UPDATE `creature_template` SET `HealthModifier`=105*3.5     WHERE `entry`=21966; -- Sharkkis
 UPDATE `creature_template` SET `HealthModifier`=17.5*4      WHERE `entry`=22119; -- Fathom Lurker
 UPDATE `creature_template` SET `HealthModifier`=17.5*4      WHERE `entry`=22120; -- Fathom Sporebat

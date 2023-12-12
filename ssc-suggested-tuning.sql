@@ -61,4 +61,4 @@ INSERT INTO `zone_difficulty_info` (`MapID`, `PhaseMask`, `HealingNerfValue`, `A
 
 DELETE FROM `zone_difficulty_spelloverrides` WHERE `SpellID` = 37675;
 INSERT INTO `zone_difficulty_spelloverrides` (`SpellID`, `MapId`, `NerfValue`, `Enabled`, `Comment`) VALUES
-(37675, 0, 1, 1, 'Serpentshrine Cavern - Leotheras (Demon form) - Chaos Blast');
+(37641, 0, 1, 1, 'Serpentshrine Cavern - Leotheras - Whirlwind (dot)');

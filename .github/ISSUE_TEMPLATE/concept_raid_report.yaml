@@ -1,0 +1,150 @@
+name: Raid report template
+description: File a PTR test raid report
+title: "[Raid report]: "
+labels: ["raid", "PTR", "tuning"]
+projects: ["main"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this raid report!
+  - type: textarea
+    id: t-mech
+    attributes:
+      label: Mechanics comments on trash mobs
+      description: Give us your overall comments on the mechanics that trash had. Make sure to mention spells that are broken, linked packs missing, etc.
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: textarea
+    id: t-tune
+    attributes:
+      label: Tuning comments on trash mobs
+      description: Give us your overall comments on the tuning that trash had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: textarea
+    id: boss-mech-1
+    attributes:
+      label: Mechanics comments on boss 1
+      description: Give us your overall comments on the mechanics that boss 1 had. Make sure to mention spells that are broken, linked packs missing, etc.
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: textarea
+    id: boss-tune-1
+    attributes:
+      label: Tuning comments on boss 1
+      description: Give us your overall comments on the tuning that boss 1 had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: textarea
+    id: boss-mech-2
+    attributes:
+      label: Mechanics comments on boss 2
+      description: Give us your overall comments on the mechanics that boss 2 had. Make sure to mention spells that are broken, linked packs missing, etc.
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: textarea
+    id: boss-tune-2
+    attributes:
+      label: Tuning comments on boss 2
+      description: Give us your overall comments on the tuning that boss 2 had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: textarea
+    id: boss-mech-3
+    attributes:
+      label: Mechanics comments on boss 3
+      description: Give us your overall comments on the mechanics that boss 3 had. Make sure to mention spells that are broken, linked packs missing, etc.
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: textarea
+    id: boss-tune-3
+    attributes:
+      label: Tuning comments on boss 3 
+      description: Give us your overall comments on the tuning that boss 3 had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: textarea
+    id: boss-mech-4
+    attributes:
+      label: Mechanics comments on boss 4
+      description: Give us your overall comments on the mechanics that boss 4 had. Make sure to mention spells that are broken, linked packs missing, etc.
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: textarea
+    id: boss-tune-4
+    attributes:
+      label: Tuning comments on boss 4 
+      description: Give us your overall comments on the tuning that boss 4 had. Make sure to mention what spells can be nerfed/buffed
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: textarea
+    id: overall-mech
+    attributes:
+      label: Overall comments on raid mechanics
+      description: The state of the raid when it comes to bugs and other weird things happening
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: dropdown
+    id: overall-mech-drop
+    attributes:
+      label: Give a rating out of 10 for the state of the mechanics in the raid
+      multiple: false
+      options:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+  - type: textarea
+    id: overall-tune
+    attributes:
+      label: Overall comments on tuning
+      description: The state of the raid when it comes to tuning
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: dropdown
+    id: overall-tune-drop
+    attributes:
+      label: Give a rating out of 10 for the state of the tuning in the raid
+      multiple: false
+      options:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10

@@ -1,6 +1,6 @@
 -- Al'ar
-UPDATE `creature_template` SET `HealthModifier`=4*280 WHERE `entry`=19514; -- Al'ar
-UPDATE `creature_template` SET `HealthModifier`=6*7 WHERE `entry`=19551; -- Ember of Al'ar
+UPDATE `creature_template` SET `HealthModifier`=3*280 WHERE `entry`=19514; -- Al'ar
+UPDATE `creature_template` SET `HealthModifier`=12*7 WHERE `entry`=19551; -- Ember of Al'ar
 
 -- High Astromancer Solarian
 UPDATE `creature_template` SET `HealthModifier`=4*350 WHERE `entry`=18805; -- High Astromancer Solarian
@@ -11,7 +11,7 @@ UPDATE `creature_template` SET `HealthModifier`=6*2.8 WHERE `entry`=18925; -- So
 UPDATE `creature_template` SET `HealthModifier`=4*525 WHERE `entry`=19516; -- Void Reaver
 
 -- Kael'thas
-UPDATE `creature_template` SET `HealthModifier`=4*420 WHERE `entry`=19622; -- Kael'thas Sunstrider
+UPDATE `creature_template` SET `HealthModifier`=4.5*420 WHERE `entry`=19622; -- Kael'thas Sunstrider
 UPDATE `creature_template` SET `HealthModifier`=4.5*25.2 WHERE `entry`=20064; -- Thaladred the Darkener
 UPDATE `creature_template` SET `HealthModifier`=4.5*25.2 WHERE `entry`=20063; -- Master Engineer Telonicus
 UPDATE `creature_template` SET `HealthModifier`=4.5*25.2 WHERE `entry`=20062; -- Grand Astromancer Capernian
@@ -47,3 +47,14 @@ UPDATE `creature_template` SET `HealthModifier`=6*28 WHERE `entry`=20046; -- Ast
 UPDATE `creature_template` SET `HealthModifier`=6*2.8 WHERE `entry`=20044; -- Novice Astromancer
 UPDATE `creature_template` SET `HealthModifier`=6*2.8 WHERE `entry`=20043; -- Apprentice Star Scryer
 UPDATE `creature_template` SET `HealthModifier`=6*28 WHERE `entry`=20045; -- Nether Scryer
+
+-- Overall buffs
+DELETE FROM `zone_difficulty_info` WHERE `MapID`= 550;
+INSERT INTO `zone_difficulty_info` (`MapID`, `PhaseMask`, `HealingNerfValue`, `AbsorbNerfValue`, `MeleeDmgBuffValue`, `SpellDmgBuffValue`, `Enabled`, `Comment`) VALUES
+(550, 0, 0.75, 0.75, 1.40, 1.40, 1, 'Tempest Keep');
+
+-- here we can override specific spells to make sure we have no 1 shot mechanics
+DELETE FROM `zone_difficulty_spelloverrides` WHERE `SpellId` = 37036;
+INSERT INTO `zone_difficulty_spelloverrides` (`SpellID`, `MapId`, `NerfValue`, `Enabled`, `Comment`) VALUES
+(37036, 0, 0.25, 1, 'Tempest Keep - Master Engineer Telonicus Bomb Damage Nerf'),
+(35181, 0, 2, 1, 'Tempest Keep - Al\'ar Dive Bomb spread damage');

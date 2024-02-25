@@ -8,7 +8,7 @@ UPDATE `creature_template` SET `HealthModifier`=6*10.5 WHERE `entry`=18806; -- S
 UPDATE `creature_template` SET `HealthModifier`=6*2.8 WHERE `entry`=18925; -- Solarium Priest
 
 -- Void Reaver
-UPDATE `creature_template` SET `HealthModifier`=4*525 WHERE `entry`=19516; -- Void Reaver
+UPDATE `creature_template` SET `HealthModifier`=3.5*525 WHERE `entry`=19516; -- Void Reaver
 
 -- Kael'thas
 UPDATE `creature_template` SET `HealthModifier`=4.5*420 WHERE `entry`=19622; -- Kael'thas Sunstrider
@@ -57,4 +57,8 @@ INSERT INTO `zone_difficulty_info` (`MapID`, `PhaseMask`, `HealingNerfValue`, `A
 DELETE FROM `zone_difficulty_spelloverrides` WHERE `SpellId` IN (35181, 37036);
 INSERT INTO `zone_difficulty_spelloverrides` (`SpellID`, `MapId`, `NerfValue`, `Enabled`, `Comment`) VALUES
 (37036, 0, 0.20, 1, 'Tempest Keep - Master Engineer Telonicus Bomb Damage Nerf'),
+(36132, 0, 1, 1, 'Tempest Keep - Bloodwarder Marshal \'Whirlwind\''),
+(37120, 0, 1, 1, 'Tempest Keep - Tempest-Smith \'Fragmentation Bomb\''),
+(33031, 0, 1.15, 1, 'Tempest Keep - Solarian \'Arcane Missiles\''),
+(34121, 0, 1, 1, 'Tempest Keep - Al\'ar Flame Buffet'),
 (35181, 0, 2, 1, 'Tempest Keep - Al\'ar Dive Bomb spread damage');

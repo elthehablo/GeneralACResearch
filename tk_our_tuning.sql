@@ -17,6 +17,7 @@ UPDATE `creature_template` SET `HealthModifier`=4.5*25.2 WHERE `entry`=20063; --
 UPDATE `creature_template` SET `HealthModifier`=4.5*25.2 WHERE `entry`=20062; -- Grand Astromancer Capernian
 UPDATE `creature_template` SET `HealthModifier`=4.5*25.2 WHERE `entry`=20060; -- Lord Sanguinar
 UPDATE `creature_template` SET `HealthModifier`=7*17.5 WHERE `entry`=21362; -- Phoenix
+UPDATE `creature_template` SET `HealthModifier`=9*7 WHERE `entry`=21364; -- Phoenix Egg
 UPDATE `creature_template` SET `HealthModifier`=4.5*18.9 WHERE `entry`=21268; -- Netherstrand Longbow
 UPDATE `creature_template` SET `HealthModifier`=4.5*22.05 WHERE `entry`=21269; -- Devastation
 UPDATE `creature_template` SET `HealthModifier`=4.5*25.2 WHERE `entry`=21270; -- Cosmic Infuser

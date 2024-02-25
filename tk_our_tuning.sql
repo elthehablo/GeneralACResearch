@@ -55,7 +55,7 @@ INSERT INTO `zone_difficulty_info` (`MapID`, `PhaseMask`, `HealingNerfValue`, `A
 (550, 0, 0.75, 0.75, 1.40, 1.40, 1, 'Tempest Keep');
 
 -- here we can override specific spells to make sure we have no 1 shot mechanics
-DELETE FROM `zone_difficulty_spelloverrides` WHERE `SpellId` IN (35181, 37036);
+DELETE FROM `zone_difficulty_spelloverrides` WHERE `SpellId` IN (37036, 36132, 37120, 33031, 34121, 35181);
 INSERT INTO `zone_difficulty_spelloverrides` (`SpellID`, `MapId`, `NerfValue`, `Enabled`, `Comment`) VALUES
 (37036, 0, 0.20, 1, 'Tempest Keep - Master Engineer Telonicus Bomb Damage Nerf'),
 (36132, 0, 1, 1, 'Tempest Keep - Bloodwarder Marshal \'Whirlwind\''),

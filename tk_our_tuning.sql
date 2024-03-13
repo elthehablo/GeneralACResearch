@@ -8,7 +8,7 @@ UPDATE `creature_template` SET `HealthModifier`=6*10.5 WHERE `entry`=18806; -- S
 UPDATE `creature_template` SET `HealthModifier`=6*2.8 WHERE `entry`=18925; -- Solarium Priest
 
 -- Void Reaver
-UPDATE `creature_template` SET `HealthModifier`=3.5*525 WHERE `entry`=19516; -- Void Reaver
+UPDATE `creature_template` SET `HealthModifier`=3.75*525 WHERE `entry`=19516; -- Void Reaver
 
 -- Kael'thas
 UPDATE `creature_template` SET `HealthModifier`=4.5*420 WHERE `entry`=19622; -- Kael'thas Sunstrider
@@ -18,13 +18,13 @@ UPDATE `creature_template` SET `HealthModifier`=4.5*25.2 WHERE `entry`=20062; --
 UPDATE `creature_template` SET `HealthModifier`=4.5*25.2 WHERE `entry`=20060; -- Lord Sanguinar
 UPDATE `creature_template` SET `HealthModifier`=7*17.5 WHERE `entry`=21362; -- Phoenix
 UPDATE `creature_template` SET `HealthModifier`=9*7 WHERE `entry`=21364; -- Phoenix Egg
-UPDATE `creature_template` SET `HealthModifier`=4.5*18.9 WHERE `entry`=21268; -- Netherstrand Longbow
-UPDATE `creature_template` SET `HealthModifier`=4.5*22.05 WHERE `entry`=21269; -- Devastation
-UPDATE `creature_template` SET `HealthModifier`=4.5*25.2 WHERE `entry`=21270; -- Cosmic Infuser
-UPDATE `creature_template` SET `HealthModifier`=4.5*18.9 WHERE `entry`=21271; -- Infinity Blades
-UPDATE `creature_template` SET `HealthModifier`=4.5*25.2 WHERE `entry`=21272; -- Warp Slicer
-UPDATE `creature_template` SET `HealthModifier`=4.5*28.35 WHERE `entry`=21273; -- Phaseshift Bulwark
-UPDATE `creature_template` SET `HealthModifier`=4.5*15.75 WHERE `entry`=21274; -- Staff of Disintegration
+UPDATE `creature_template` SET `HealthModifier`=4*18.9 WHERE `entry`=21268; -- Netherstrand Longbow
+UPDATE `creature_template` SET `HealthModifier`=4*22.05 WHERE `entry`=21269; -- Devastation
+UPDATE `creature_template` SET `HealthModifier`=4*25.2 WHERE `entry`=21270; -- Cosmic Infuser
+UPDATE `creature_template` SET `HealthModifier`=4*18.9 WHERE `entry`=21271; -- Infinity Blades
+UPDATE `creature_template` SET `HealthModifier`=4*25.2 WHERE `entry`=21272; -- Warp Slicer
+UPDATE `creature_template` SET `HealthModifier`=4*28.35 WHERE `entry`=21273; -- Phaseshift Bulwark
+UPDATE `creature_template` SET `HealthModifier`=4*15.75 WHERE `entry`=21274; -- Staff of Disintegration
 
 -- Trash
 UPDATE `creature_template` SET `HealthModifier`=6*28 WHERE `entry`=20035; -- Bloodwarder Marshal
